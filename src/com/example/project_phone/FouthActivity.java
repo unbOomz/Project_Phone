@@ -24,7 +24,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.example.retrievedata.R;
+import com.example.project_phone.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
