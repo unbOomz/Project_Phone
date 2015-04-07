@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout1" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >	
+
+	<TextView
+	    android:id="@+id/ColBand"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_weight="0.37"
+	    android:gravity="center_horizontal"
+	    android:text="Band" />
+
+	<TextView
+	    android:id="@+id/ColGen"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1.40"
+	    android:gravity="center_horizontal"
+	    android:text="Gen" />
+	
+	<TextView
+	    android:id="@+id/ColCapacity"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:gravity="center_horizontal"
+	    android:text="Capacity" />
+	
+	<TextView
+	    android:id="@+id/ColSpace"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_weight="0.56"
+	    android:gravity="fill_horizontal"
+	    android:text="GB" />
+	
+	
+	
+	
+
+</LinearLayout>
