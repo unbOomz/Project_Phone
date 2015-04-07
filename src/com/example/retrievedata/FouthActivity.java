@@ -100,7 +100,7 @@ public class FouthActivity extends Activity{
 	    	}	    	
 	    	/*Iterator<String> Vmap = map.keySet().iterator();
 	    	while(Vmap.hasNext()){
-	    		....
+	    		.......
 	    	}*/
 	    	
 	    	SimpleAdapter adapter = new SimpleAdapter(FouthActivity.this, MyArrList, R.layout.activity_column2, new String[] {"name","value"}, new int[] {R.id.ColName, R.id.ColValue});
